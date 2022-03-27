@@ -26,7 +26,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
           </Link>
           <Link href="/about">
             <a className="text-white bg-sky-600 hover:bg-sky-700 p-2 rounded-lg mx-1">
-              about
+              About
             </a>
           </Link>
           <Link href="/users">

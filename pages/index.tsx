@@ -6,6 +6,7 @@ import { SendOneLamportToRandomAddress } from "../components/Send";
 const IndexPage = () => (
   <Layout title="Home | Next.js + TypeScript Example">
     <h1 className="text-xl font-bold">Hello Next.js + TS + Tailwind CSS👋!</h1>
+    <p className="text-lg">This is only Devnet for now</p>
     <div>
       <div>
         <WalletMultiButton />

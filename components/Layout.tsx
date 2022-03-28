@@ -29,22 +29,16 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
               About
             </a>
           </Link>
-          <Link href="/users">
+          {/* <Link href="/users">
             <a className="text-white bg-sky-600 hover:bg-sky-700 p-2 rounded-lg mx-1">
               Users List
             </a>
-          </Link>
+          </Link> */}
           <Link href="/tokens">
             <a className="text-white bg-sky-600 hover:bg-sky-700 p-2 rounded-lg mx-1">
               Tokens List
             </a>
           </Link>
-          <a
-            href="/api/users"
-            className="text-white bg-sky-600 hover:bg-sky-700 p-2 rounded-lg mx-1"
-          >
-            Users API
-          </a>
         </nav>
         <hr />
       </header>

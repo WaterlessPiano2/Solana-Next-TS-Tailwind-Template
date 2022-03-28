@@ -1,18 +1,17 @@
-import React from 'react'
-import Link from 'next/link'
-
-import { User } from '../interfaces'
+import React from "react";
+import Link from "next/link";
+import { Token } from "../pages/users";
 
 type Props = {
-  data: User
-}
+  data: Token;
+};
 
 const ListItem = ({ data }: Props) => (
-  <Link href="/users/[id]" as={`/users/${data.id}`}>
+  <Link href="/users/[pkey]" as={`/users/${data.pkey}`}>
     <a>
-      {data.id}: {data.name}
+      {data.pkey}: {data.balance}
     </a>
   </Link>
-)
+);
 
-export default ListItem
+export default ListItem;

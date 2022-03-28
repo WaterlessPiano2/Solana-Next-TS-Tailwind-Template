@@ -24,7 +24,11 @@ export const SendOneLamportToRandomAddress: FC = () => {
   }, [publicKey, sendTransaction, connection]);
 
   return (
-    <button onClick={onClick} disabled={!publicKey}>
+    <button
+      onClick={onClick}
+      disabled={!publicKey}
+      className="btn hover:bg-violet-600 bg-violet-800 text-white disabled:bg-gray-400 p-4 mt-4 rounded-md"
+    >
       Send 1 lamport to a random address!
     </button>
   );

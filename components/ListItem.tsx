@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { Token } from "../pages/users";
+import { Token } from "../interfaces";
 
 type Props = {
   data: Token;

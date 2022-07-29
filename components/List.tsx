@@ -1,6 +1,6 @@
 import * as React from "react";
 import ListItem from "./ListItem";
-import { Token } from "../pages/users";
+import { Token } from "../interfaces";
 
 type Props = {
   items: Token[];

@@ -1,8 +1,6 @@
 import { GetStaticProps } from "next";
 import Link from "next/link";
 
-import { User } from "../../interfaces";
-import { sampleUserData } from "../../utils/sample-data";
 import Layout from "../../components/Layout";
 import List from "../../components/List";
 import { useConnection, useWallet } from "@solana/wallet-adapter-react";
@@ -48,7 +46,7 @@ const tokens = ({ items }: Props) => {
   }, [publicKey]);
 
   return (
-    <Layout title="Users List | Next.js + TypeScript Example">
+    <Layout title=" Tokens List | Next.js + TypeScript Example">
       <h1 className="text-xl font-bold">Tokens List</h1>
       <List items={tokens} />
       <p>
